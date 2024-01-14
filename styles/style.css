@@ -15,7 +15,6 @@
 
 :root {
   --primary-color: #3a3a3a;
-  --secondary-color: blue;
   --primary-font: "Inter", sans-serif;
   --secondary-font: "Poppins", sans-serif;
 }
@@ -138,9 +137,6 @@ nav li a {
   margin-bottom: auto;
   gap: 30px;
 }
-.row3 {
-  grid-row: 3 / span 1;
-}
 .box {
   width: auto;
   height: auto;
@@ -224,3 +220,7 @@ font-size: 16px;
 font-weight: 700;
 line-height: 28px; 
 }
+
+
+
+

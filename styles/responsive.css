@@ -1,8 +1,9 @@
 /* Responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
+    
     header {
-      padding: 10px 50px;
+      padding: 10px 10px;
       /* margin: ; */
       text-align: center;
     }
@@ -12,6 +13,7 @@
     }
     .banner {
       flex-direction: column-reverse;
+      width: 100%;
     }
     .logo-container .logo-img-container {
       margin: auto;
@@ -28,5 +30,11 @@
 
     .popular-collection-container .img-container{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .features-container{
+        flex-direction: column-reverse;
+    }
+    .features-content .primary-btn{
+        margin-bottom: 20px;
     }
   }
