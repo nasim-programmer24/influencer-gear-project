@@ -1,0 +1,32 @@
+/* Responsive media queries */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    header {
+      padding: 10px 50px;
+      /* margin: ; */
+      text-align: center;
+    }
+    nav,
+    nav ul {
+      flex-direction: column;
+    }
+    .banner {
+      flex-direction: column-reverse;
+    }
+    .logo-container .logo-img-container {
+      margin: auto;
+      flex-wrap: wrap;
+    }
+    .logo-container .logo-img-container img {
+      width: 8%;
+      gap: 2px;
+      height: auto;
+    }
+    .images {
+      margin-bottom: 30px;
+    }
+
+    .popular-collection-container .img-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
