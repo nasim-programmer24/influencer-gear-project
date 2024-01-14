@@ -16,13 +16,13 @@
       width: 100%;
     }
     .logo-container .logo-img-container {
-      margin: auto;
+      margin: 0px;
       flex-wrap: wrap;
     }
     .logo-container .logo-img-container img {
       width: 8%;
       gap: 2px;
-      height: auto;
+      height: 100%;
     }
     .images {
       margin-bottom: 30px;
@@ -36,5 +36,11 @@
     }
     .features-content .primary-btn{
         margin-bottom: 20px;
+    }
+    .features .features-container .features-content{
+        padding-left: 10px;
+    }
+    .features-img img{
+        width: 100%;
     }
   }

@@ -10,7 +10,6 @@
   font-family: "Manrope", sans-serif;
   font-family: "Inter", sans-serif;
   font-family: "Poppins", sans-serif;
-  background: #FFF;
 }
 
 :root {
@@ -29,7 +28,7 @@
   margin-top: 16px;
   border: none;
 }
-.primary-btn>img{
+.primary-btn > img {
   background-color: transparent;
   position: relative;
   top: 7px;
@@ -108,7 +107,11 @@ nav li a {
   display: flex;
   justify-content: space-evenly;
   gap: 60px;
-  margin: auto;
+  margin: 35px auto;
+}
+.logo-container .logo-img-container img{
+  width: 100%;
+  height: 100%;
 }
 /* popular section start */
 .popular-collection-container {
@@ -189,6 +192,11 @@ nav li a {
   color: rgba(224, 44, 109, 0.87);
   word-spacing: 3px;
 }
+.popular-collection-container .collection-container .see-more img{
+  position: relative;
+  top: 5px;
+
+}
 .features {
   width: 77%;
   height: auto;
@@ -200,7 +208,6 @@ nav li a {
   height: auto;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
 }
 .features .features-container .features-content {
   text-align: start;
@@ -212,15 +219,38 @@ nav li a {
   color: #0a0826;
   font-size: 38px;
   font-weight: 700;
-  line-height: 60px; 
+  line-height: 60px;
 }
-.features .features-container .features-content p{
-  color: #6C6C6C;
-font-size: 16px;
-font-weight: 700;
-line-height: 28px; 
+.features .features-container .features-content p {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
 }
 
+.footer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.footer .footer-influencer-container {
+  width: 100%;
+  height: auto;
+  background: #0a0826;
+  padding: 60px;
+  
+}
 
-
-
+.footer .footer-influencer-container h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.footer .footer-influencer-container h6,
+.footer .footer-influencer-container p {
+  color: #d9dbe1;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
