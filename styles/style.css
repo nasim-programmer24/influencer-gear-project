@@ -1,0 +1,87 @@
+/* For Font  */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+/* Primary Shared Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary-color: #3a3a3a;
+  --secondary-color: blue;
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+.primary-btn {
+  padding: 10px 24px;
+  gap: 8px;
+  border-radius: 41px;
+  background: #e02c6d;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+/* Header Sections Start */
+header {
+  padding: 100px 130px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h3 {
+  color: #3a3a3a;
+  font-size: 24px;
+  font-weight: 700;
+}
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 34px;
+}
+nav li a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px 70px 0px;
+}
+
+.banner .banner-title {
+  color: var(--primary-color);
+  font-size: 52px;
+  font-weight: 700;
+}
+.banner .banner-description {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 600;
+}
+.banner .images {
+  background-image: url("../resources/images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  position: left center;
+  background-size: 100%;
+}
+
+.banner .images img {
+  width: 100%;
+}
