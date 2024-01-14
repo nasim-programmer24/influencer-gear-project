@@ -27,6 +27,7 @@
   font-size: 16px;
   font-weight: 700;
   margin-top: 16px;
+  border: none;
 }
 
 /* Header Sections Start */
@@ -79,15 +80,17 @@ nav li a {
   background-image: url("../resources/images/Circle\ design.svg");
   background-repeat: no-repeat;
   position: left center;
-  background-size: 100%;
+  background-size: 95%;
 }
 
 .banner .images img {
   width: 100%;
 }
 
+/* Header Section CSS Style started here */
 
 
+/* logo-container section start here */
 .logo-container{
     width: 75%;
     height: auto;
@@ -101,8 +104,37 @@ nav li a {
     width: 75%;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 60px;
     margin: auto;
 }
 
+
+
+/* Responsive media queries */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+  header{
+    padding: 10px 50px;
+    margin: ;
+    text-align: center;
+  }
+  nav, nav ul{
+    flex-direction: column;
+  }
+  .banner{
+    flex-direction: column-reverse;
+  }
+  .logo-container .logo-img-container{
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .logo-container .logo-img-container img{
+    width: 8%;
+    gap: 2px;
+    height: auto;
+  }
+  .images{
+    margin-bottom: 30px;
+  }
+}
